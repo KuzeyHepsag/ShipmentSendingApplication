@@ -81,4 +81,10 @@ Frontend: React, Leaflet (for interactive mapping).
 
 Database: MySQL / PostgreSQL.
 
+## Configuration
+To run this project, follow these steps:
+1. Navigate to `kargoTakipBackend/src/main/resources/`.
+2. Create a copy of `application.properties.example` and name it `application.properties`.
+3. Update the `spring.datasource.password` and `jwt.secret` fields with your local database credentials.
+
 This project is built to streamline logistics operations by prioritizing efficiency, transparency, and user experience.
