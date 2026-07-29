@@ -1,0 +1,19 @@
+# App Name & Port
+spring.application.name=kargotakip
+server.port=9000
+
+# Database Configuration (Replace with your own credentials)
+spring.datasource.url=jdbc:postgresql://localhost:5432/kargodb
+spring.datasource.username=postgres
+spring.datasource.password=BURAYA_VERITABANI_SIFRENIZI_YAZIN
+spring.datasource.driver-class-name=org.postgresql.Driver
+
+# Hibernate/JPA Configuration
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+spring.jpa.properties.hibernate.format_sql=true
+
+# Security Configuration
+# IMPORTANT: Replace the secret below with a strong, custom string
+jwt.secret=type_secret_key_here
